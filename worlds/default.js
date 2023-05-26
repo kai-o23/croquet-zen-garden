@@ -38,16 +38,6 @@ export function init(Constants) {
                 shadow: true,
                 singleSided: false,
                 type: "3d",
-            }
-        },
-        {
-            card: {
-                name:"world model",
-                layers: ["walk"],
-                type: "3d",
-                singleSided: true,
-                shadow: true,
-                translation:[0, -1.7, 0],
                 placeholder: true,
                 placeholderSize: [400, 0.1, 400],
                 placeholderColor: 0x808080,
@@ -60,8 +50,8 @@ export function init(Constants) {
                 layers: ["light"],
                 type: "lighting",
                 behaviorModules: ["Light"],
-                dataLocation: "3OF2-s4U1ZOJduGATmLEIXo1iTkQHd5ZBknKgL5SvqpQJzs7Pzx1YGApJiMqPGE6PGEsPSA-Oio7YSYgYDpgCCsZLTYjBjwOJB4sDRcrfAg3Ljk2OBoEGBYWfWAmIGEsPSA-Oio7YSImLD0gOSo9PCpgPwB9AAIIISx8YiYneScqKyQaIisNLHkaGT8YKg56JQwQfHstPiNiGQ49e2ArLjsuYCMBPgMiCQt3OQskGhcleSp9HQIIfXseHgo7EAo9CB48FRwpegsCLH4OIwY",
-                fileName: "/abandoned_parking_4k.jpg",
+                fileName: "fantasy_lands_sandy_zen_garden_surrounded_by_trees.jpg",
+                dataLocation: "3oUBwMbftlKjS_wzJ5uu31uGfwuAXcg0sHXqrgYuT3AgBxsbHxxVQEAJBgMKHEEaHEEMHQAeGgobQQYAQBpAOCoMDjgbKgInKAtXODkhNy0WOw4MIgwfPyELXUAGAEEMHQAeGgobQR8AHRsOA0EaHwMADgtAWRlcHykrIz8_BBwIACFWVwcILjk5JBsNKCEIMCk5LCMOJB0wDi4OWlwgCEALDhsOQCpZQiwNA1kVKgBbJQo1K0IEPT42DD1fICgGMAUALg4VF1Y9VgFaJRYELgA",                
                 dataType: "jpg",
             }
         },
